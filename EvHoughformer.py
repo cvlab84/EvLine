@@ -308,7 +308,7 @@ if __name__ == "__main__":
     print(f"\n1. Initializing Model with [{CHOSEN_BACKBONE}] backbone (CPU mode)...")
     model = EvHoughformer(backbone_type=CHOSEN_BACKBONE, tr_dim=128, tr_num_heads=4, R=112, T=100, dual_num_stacks=5)
 
-    # 파라미터 수 확인
+    # Check the number of parameters
     params = sum(p.numel() for p in model.parameters() if p.requires_grad)
     print(f" - Total Parameters : {params / 1e6:.1f} M")
 
@@ -324,4 +324,5 @@ if __name__ == "__main__":
     out_heatmap = model(sample_event_map, hough_dict)
 
     print(f" - Output Heatmap Shape : {out_heatmap.shape} (Expected: {B}, 1, 112, 100)")
+
     print(f"\n✅ Core architecture ({CHOSEN_BACKBONE}) executed successfully!")
