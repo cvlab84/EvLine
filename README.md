@@ -19,7 +19,7 @@ Please download the dataset from the Google Drive links below and place them in 
 | **Train Set** | 2,409 / 220,122 | 36 GB / 157 GB | [📥 Download ESL_Train.zip](https://drive.google.com/file/d/1_Osf9b2obTbBQ7o7_VCaBKhaNVM2GY7-/view?usp=drive_link) |
 | **Test Set** | 603 / 54,084 | 9 GB / 41 GB | [📥 Download ESL_Test.zip](https://drive.google.com/file/d/1Cfg-RhQ9SY6KTpN_LsDEuM134JX0Sw9p/view?usp=drive_link) |
 
-### Directory Structure
+### Dataset Structure
 After downloading and extracting the dataset, your project directory should be structured as follows:
 
 ```text
