@@ -1,7 +1,7 @@
 # EvLine: Event-based Semantic Line Detection (Anonymous Repository)
 
 > **Notice: This repository is currently under construction.**
-> To comply with the double-blind review process for ECCV 2026 (Paper ID #*****), all identifying information (authors, affiliations, etc.) has been temporarily removed.
+> To comply with the double-blind review process for ECCV 2026 (Paper ID #10068), all identifying information (authors, affiliations, etc.) has been temporarily removed.
 > The full source code is continuously being updated. At this stage, we provide the **ESL dataset** and a **preliminary version of the EvHoughformer model** focusing on the core dual-stream transformer architecture. The complete and polished codebase will be fully released upon acceptance.
 
 Welcome to the anonymous repository for the paper: *"EvLine: Event-based Semantic Line Detection"*.
